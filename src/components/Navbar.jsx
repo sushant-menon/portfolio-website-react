@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="flex justify-between mx-auto bg-cyan-500 p-4">
-      <Link to="/" className="text-white text-2xl cursor-pointer">
+      <Link
+        to="/"
+        className="text-gray-900 text-3xl cursor-pointer font-extrabold"
+      >
         Logo
       </Link>
       {/* Hamburger goes here */}
