@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { createContext } from "react";
 
-export const ProjectContext = createContext();
+export const ProjectContext = createContext("null");
 
-export const ProjectProvider = () => {
+export const ProjectProvider = props => {
   const [project, setProject] = useState([
     {
       id: 1,
