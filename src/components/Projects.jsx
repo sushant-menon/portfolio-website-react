@@ -3,8 +3,9 @@ import GlassCard from "./GlassCard";
 
 const Projects = () => {
   return (
-    <div className="bg-black h-screen">
-      <div className="flex">
+    <div className="bg-black h-auto">
+      <div className="flex flex-col">
+        <GlassCard />
         <GlassCard />
       </div>
     </div>
