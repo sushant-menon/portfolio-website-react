@@ -9,7 +9,7 @@ import { ProjectProvider } from "./context/ProjectContext";
 
 function App() {
   return (
-    <div className="">
+    <div>
       <ProjectProvider>
         <Router>
           <Navbar />

@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ProjectContext } from "../context/ProjectContext";
 import GlassCard from "./GlassCard";
 
 const Projects = () => {
+  const [project, setProject] = useContext(ProjectContext);
   return (
     <div className="bg-black h-auto">
-      <div className="flex flex-col">
-        <GlassCard />
+      <div className="flex">
         <GlassCard />
       </div>
     </div>
