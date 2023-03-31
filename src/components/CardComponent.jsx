@@ -30,7 +30,6 @@ const CardComponent = ({ Name, Description, Image, Tech }) => {
           <div className="text-center font-extrabold mb-1 tracking-wide text-black md:text-start md:text-3xl">
             <h2>Tech Used:</h2>
             <span className="font-bold md:font-light md:text-xl text-gray-300">
-              {/* HTML , CSS , JAVASCRIPT */}
               {Tech}
             </span>
           </div>

@@ -3,7 +3,6 @@ import { ProjectContext } from "../context/ProjectContext";
 import GlassCard from "./GlassCard";
 
 const Projects = () => {
-  const [project, setProject] = useContext(ProjectContext);
   return (
     <div className="bg-black h-auto">
       <div className="flex">
