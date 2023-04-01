@@ -6,6 +6,8 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Tech from "./components/Tech";
 import { ProjectProvider } from "./context/ProjectContext";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -14,9 +16,9 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route path="/about" element={<About />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/project" element={<Projects />} />
-            <Route path="/tech" element={<Tech />} />
+            <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </Router>
