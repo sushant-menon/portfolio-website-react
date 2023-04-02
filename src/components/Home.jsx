@@ -1,21 +1,22 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <div className="bg-rose-300 h-screen">
       <div className="container px-6 md:px-16 mx-auto pt-7">
         <div className="flex flex-col md:flex-row-reverse justify-center items-center space-y-10 mx-auto md:space-y-0 md:justify-around md:mt-24">
-          <span className="rounded-full bg-green-500 w-[300px] h-[300px] mt-[50px] relative">
+          <span className="rounded-full bg-green-500 w-[300px] h-[300px] mt-[50px] relative md:w-[450px] md:h-[450px]">
             <img
-              className="absolute rounded-full w-96"
+              className="absolute rounded-full w-96 md:w-[450px] md:h-[450px]"
               src="src\assets\3d-cartoon-lumberjack-character-removebg-preview.png"
             />
           </span>
           <div>
             <h2 className="font-extrabold text-5xl max-w-md text-center md:hidden">
               Hi, I'm Sushant Menon
-              {/* for large screens */}
             </h2>
+            {/* for large screens */}
             <span className="hidden md:block">
               <h2 className=" text-xl max-w-md text-start">
                 Hi, my name is...
@@ -24,12 +25,15 @@ const Home = () => {
                 Sushant Menon
               </p>
             </span>
-            <p className="font-bold text-2xl mt-4 text-center">
+            <p className="font-bold text-2xl mt-4 text-center md:text-start">
               A Frontend Developer
             </p>
-            <p className="font-bold text-2xl text-center">
+            <p className="font-bold text-2xl text-center md:text-start">
               I like to turn design into reality
             </p>
+            <span className="">
+              <Link to="/about">Wanna know about me more</Link>
+            </span>
           </div>
         </div>
       </div>

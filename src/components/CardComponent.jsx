@@ -20,7 +20,7 @@ const CardComponent = ({ Name, Description, Image, Tech }) => {
         {/* description and tech */}
         <div className="mt-7 space-y-6 md:space-y-0 md:flex-col flex flex-col md:ml-4">
           <div className="w-full">
-            <h2 className="font-extrabold mb-1 tracking-wide text-black text-center md:text-start md:text-3xl">
+            <h2 className="font-extrabold mb-1 tracking-wide text-black text-center md:text-start md:text-3xl ">
               Description:
             </h2>
             <span className="text-sm md:text-xl md:text-start md:tracking-wide tracking-wider text-gray-300 text-center md:leading-loose leading-relaxed">
