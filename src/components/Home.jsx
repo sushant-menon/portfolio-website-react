@@ -31,8 +31,16 @@ const Home = () => {
             <p className="font-bold text-2xl text-center md:text-start">
               I like to turn design into reality
             </p>
-            <span className="">
-              <Link to="/about">Wanna know about me more</Link>
+            <span className="flex space-x-3 mt-4 flex-col items-center space-y-4 md:flex-row md:space-y-0">
+              <Link to="/about" className="border-b-2 w-max">
+                Want to know more about me
+              </Link>
+              <Link to="/project" className=" border-b-2 w-max">
+                My Works
+              </Link>
+              <Link to="/contact" className="border-b-2 w-max">
+                Get in touch
+              </Link>
             </span>
           </div>
         </div>
