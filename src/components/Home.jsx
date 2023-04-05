@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="bg-rose-300 h-screen">
+    <div className="md:bg-gradient-to-r from-[#ffd89b]  to-[#19547b] h-screen bg-gradient-to-b">
       <div className="container px-6 md:px-16 mx-auto pt-7">
-        <div className="flex flex-col md:flex-row-reverse justify-center items-center space-y-10 mx-auto md:space-y-0 md:justify-around md:mt-24">
-          <span className="rounded-full bg-green-500 w-[300px] h-[300px] mt-[50px] relative md:w-[450px] md:h-[450px]">
+        <div className="flex flex-col md:flex-row-reverse justify-center items-center space-y-10 mx-auto md:space-y-0 xl:justify-around md:items-end xl:items-center md:mt-24 relative">
+          <span className="rounded-full bg-black w-[300px] h-[300px] mt-[50px] relative md:w-[450px] md:h-[270px] xl:w-[450px] xl:h-[450px] ">
             <img
-              className="absolute rounded-full w-96 md:w-[450px] md:h-[450px]"
+              className="absolute rounded-full w-96 xl:w-[450px] xl:h-[450px] md:w-[550px] md:h-[270px]"
               src="src\assets\3d-cartoon-lumberjack-character-removebg-preview.png"
             />
           </span>
@@ -21,7 +21,7 @@ const Home = () => {
               <h2 className=" text-xl max-w-md text-start">
                 Hi, my name is...
               </h2>
-              <p className="text-center font-extrabold text-6xl max-w-2xl">
+              <p className="text-center md:text-start font-extrabold text-6xl max-w-2xl">
                 Sushant Menon
               </p>
             </span>

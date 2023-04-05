@@ -4,7 +4,7 @@ import GlassCard from "./GlassCard";
 
 const Projects = () => {
   return (
-    <div className="bg-black h-auto">
+    <div className="bg-teal-400 h-auto">
       <div className="flex">
         <GlassCard />
       </div>
