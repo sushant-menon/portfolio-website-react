@@ -29,7 +29,7 @@ const Home = () => {
               A Frontend Developer
             </p>
             <p className="font-bold text-2xl text-center md:text-start">
-              I like to turn design into reality
+              I like to turn ideas into product
             </p>
             <span className="flex space-x-3 mt-4 flex-col items-center space-y-4 md:flex-row md:space-y-0">
               <Link to="/about" className="border-b-2 w-max">
