@@ -8,7 +8,7 @@ const AboutMeDetails = () => {
       </div>
 
       <div className="flex flex-col mt-16 justify-center items-center">
-        <span className="border-2 border-white w-[290px] h-[290px] rounded-md transform hover:scale-95"></span>
+        <span className="border-2 border-green-950 w-[290px] h-[290px] rounded-md transform hover:scale-95 duration-1000"></span>
         <img
           className="bg-black w-[290px] h-[290px] absolute -translate-x-5 -translate-y-5 rounded-md"
           alt=""

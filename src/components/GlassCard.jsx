@@ -16,6 +16,8 @@ const GlassCard = () => {
             Description={project.Description}
             Image={project.Image}
             Tech={project.Tech}
+            link={project.Link}
+            github={project.Github}
           />
         );
       })}

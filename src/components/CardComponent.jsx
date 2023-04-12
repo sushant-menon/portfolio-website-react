@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { ProjectContext } from "../context/ProjectContext";
 
-const CardComponent = ({ Name, Description, Image, Tech }) => {
+const CardComponent = ({ Name, Description, Image, Tech, link, github }) => {
   // console.log("Name is : ", Name);
   return (
     <div className="bg-green-700 rounded-3xl m-4 p-4 w-full">
@@ -13,8 +13,9 @@ const CardComponent = ({ Name, Description, Image, Tech }) => {
           <span>
             <img className="rounded-xl w-[320px] md:w-[400px]" src={Image} />
           </span>
-          <span className="mt-3 md:mx-48">
-            <Link to="/">Link</Link>
+          <span className="mt-3 md:mx-48 space-x-4">
+            <Link to={link}>Live</Link>
+            <Link to={github}>Github</Link>
           </span>
         </div>
         {/* description and tech */}

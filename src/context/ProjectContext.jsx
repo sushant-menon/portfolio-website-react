@@ -12,6 +12,8 @@ export const ProjectProvider = props => {
         "A to-do list is a simple tool that helps individuals keep track of tasks or activities that need to be completed within a specific timeframe. It is a list of items that need to be done, organized in a way that allows the user to prioritize tasks based on their importance or urgency.",
       Image: "src/assets/cole.jpg",
       Tech: "Html, css",
+      Link: "https://todolistvjs.netlify.app/",
+      Github: "https://github.com/sushant-menon/todolist-vanillajs",
     },
     {
       id: 2,
@@ -19,6 +21,8 @@ export const ProjectProvider = props => {
       Description: "Sushant is a bitch ass boy",
       Image: "src/assets/sunset1.jpg",
       Tech: "Html, css , React",
+      Link: "",
+      Github: "",
     },
     {
       id: 3,
@@ -26,6 +30,8 @@ export const ProjectProvider = props => {
       Description: "Susu is a good boy",
       Image: "src/assets/cole.jpg",
       Tech: "Html, css , typescript",
+      Link: "",
+      Github: "",
     },
   ]);
 
