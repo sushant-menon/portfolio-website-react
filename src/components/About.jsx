@@ -11,7 +11,7 @@ const About = () => {
           alt="bg-image"
         />
       </div>
-      <div className=" backdrop-blur-sm bg-white/30 relative text-center mt-4 w-[430px] mx-auto rounded-2xl h-screen py-6 px-4 md:w-[1370px] md:backdrop-blur-md md:px-16 md:py-12">
+      <div className=" backdrop-blur-sm bg-white/30 relative text-center mt-4 w-[430px] mx-auto rounded-2xl h-full py-6 px-4 md:w-[1370px] md:backdrop-blur-md md:px-16 md:py-12">
         <AboutMeDetails />
       </div>
     </>
