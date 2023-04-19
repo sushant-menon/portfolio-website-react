@@ -18,21 +18,49 @@ const AboutMeDetails = () => {
 
         {/* About me */}
         <div className="flex flex-col">
-          <p className="mt-4 font-bold text-justify md:text-2xl md:max-w-3xl text-lg">
+          <p className="mt-4 font-bold text-center md:text-2xl md:max-w-3xl text-lg md:text-start">
             Hey visitor, my name is Sushant Menon. I'm a self taught developer.
             I work mostly on frontend and for which I use technologies like
-            HTML, CSS, Javascript and React. I started exploring about web
-            development in my final year of engineering. Then I began
-            experimenting with HTML and CSS and made quite a few static website
-            which made me fall in love with the frontend and that day I decided
-            to pursue software engineering as a career.
+            HTML, CSS, Javascript and React. I make websites.
           </p>
           {/* Education */}
           <div className="md:mt-20 mt-10 flex flex-col">
             <h2 className="text-start font-extrabold text-3xl">Education :</h2>
-            <p className=" text-xl text-start">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-              voluptatibus.
+            <p className=" text-xl text-start mt-2 md:max-w-3xl">
+              I am a Computer Science Engineer from Nagpur University, where I
+              earned my Bachelor of Engineering degree with Distinction. During
+              my time at university, I gained a solid foundation in computer
+              science and software engineering.
+            </p>
+          </div>
+          {/* How it started */}
+          <div className="md:mt-20 mt-10 flex flex-col">
+            <h2 className="text-start font-extrabold text-3xl">
+              How it all started? :
+            </h2>
+            <p className=" text-xl text-start mt-2 md:max-w-3xl">
+              I was in my 2nd year of Engineering when I was first introduced to
+              a programming language that was "C" and before that I had zero
+              knowledge about any language.Although in college I only studied C
+              language for clearing the semester, never took it seriously to
+              understand the fundamentals. Then in 3rd year another important
+              concept was introduced Data structure.So this time instead of
+              memorizing the code I tried to learn the fundamentals from scratch
+              and gained a little knowledge in C. But I never enjoyed writing
+              code in C. So I started exploring for other programming languages
+              to learn because I had a added advantage of already knowing a
+              language. It is easy to pick up any other language, it's just
+              difference of syntax and the logic remains same. So then I
+              stumbled upon python and at that time python was on the list of
+              most popular languages to learn according to some article. I
+              didn't enjoyed writing code in python either, started exploring
+              more programming language and this time the language which I found
+              changed my life for good. I started exploring about web
+              development in my final year of engineering. Learnt HTML and CSS
+              from Youtube and Freecodecamp.Then I began experimenting with HTML
+              and CSS and made quite a few static website which made me fall in
+              love for the frontend and that day I decided to pursue software
+              engineering as a career.
             </p>
           </div>
         </div>
