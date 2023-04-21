@@ -80,21 +80,40 @@ const AboutMeDetails = () => {
             </button>
           </div>
 
-          {/* Hobbies */}
+          {/* Hobbies*/}
+
           <div className="md:mt-20 mt-10 flex flex-col">
             <h2 className="text-start font-extrabold text-3xl">Hobbies :</h2>
             <p className=" text-xl text-start mt-2 md:max-w-3xl font-bold">
-              <span className="gap-2">
-                <span className="">
-                  <li>Lifting weights</li>
-                  <li>Reading books</li>
-                  <li>Watching documentaries and crime thriller movies</li>
-                  <li>Listening hip-hop/rap music</li>
+              <div className="flex flex-col space-y-2">
+                <span className="inline-flex">
+                  <li></li>
+                  <p>Lifting Weights</p>
                 </span>
-              </span>
+                <span className="inline-flex">
+                  <li></li>
+                  <p>reading books</p>
+                </span>
+                <span className="inline-flex">
+                  <li></li>
+                  <p>Watching documentaries and crime thriller movies</p>
+                </span>
+                <span className="inline-flex">
+                  <li></li>
+                  <p>Listening hip-hop/rap music</p>
+                </span>
+              </div>
             </p>
           </div>
+
           {/* Technologies used */}
+
+          <div className="md:mt-20 mt-10 flex flex-col">
+            <h2 className="text-start font-extrabold text-3xl">Technology :</h2>
+            <p className=" text-xl text-start mt-2 md:max-w-3xl  font-bold">
+              HTML CSS JS REACT GIT GITHUB
+            </p>
+          </div>
         </div>
       </div>
     </>
