@@ -1,22 +1,17 @@
 import React, { useState } from "react";
 
-const HowItStartedText = ` I was in my 2nd year of Engineering when I was first introduced to
-a programming language that was "C" and before that I had zero
+const HowItStartedText = ` I was in my 2nd year of Engineering when I was first introduced to a programming language that was "C" and before that I had zero
 knowledge about any language.Although in college I only studied C
 language for clearing the semester, never took it seriously to
-understand the fundamentals. Then in 3rd year another important
-concept was introduced Data structure.So this time instead of
-memorizing the code I tried to learn the fundamentals from scratch
+understand the fundamentals.So in 3rd year I tried to learn the fundamentals from scratch
 and gained a little knowledge in C. But I never enjoyed writing
 code in C. So I started exploring for other programming languages
 to learn because I had a added advantage of already knowing a
-language. It is easy to pick up any other language, it's just
-difference of syntax and the logic remains same. So then I
-stumbled upon python and at that time python was on the list of
-most popular languages to learn according to some article. I
+language. It's easy to pick up any other language just some
+difference of syntax and the logic remains same.Tried python, failed. I
 didn't enjoyed writing code in python either, started exploring
 more programming language and this time the language which I found
-changed my life for good. I started exploring about web
+changed my life for good and that was javascript. I started exploring about web
 development in my final year of engineering. Learnt HTML and CSS
 from free resources available.Then I began experimenting with HTML
 and CSS and made quite a few static website which made me fall in
@@ -88,15 +83,15 @@ const AboutMeDetails = () => {
               <div className="flex flex-col space-y-2">
                 <span className="inline-flex">
                   <li></li>
-                  <p>Lifting Weights</p>
+                  <p>Lifting weights</p>
                 </span>
                 <span className="inline-flex">
                   <li></li>
-                  <p>reading books</p>
+                  <p>Reading books</p>
                 </span>
                 <span className="inline-flex">
                   <li></li>
-                  <p>Watching documentaries and crime thriller movies</p>
+                  <p>Watching documentaries</p>
                 </span>
                 <span className="inline-flex">
                   <li></li>
