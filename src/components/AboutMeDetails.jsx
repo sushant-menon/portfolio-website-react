@@ -3,8 +3,7 @@ import React, { useState } from "react";
 const HowItStartedText = ` I was in my 2nd year of Engineering when I was first introduced to a programming language that was "C" and before that I had zero
 knowledge about any language.Although in college I only studied C
 language for clearing the semester, never took it seriously to
-understand the fundamentals.So in 3rd year I tried to learn the fundamentals from scratch
-and gained a little knowledge in C. But I never enjoyed writing
+understand the fundamentals.So in 3rd year I tried to learn the fundamentals from scratch and gained a little knowledge in C. But I never enjoyed writing
 code in C. So I started exploring for other programming languages
 to learn because I had a added advantage of already knowing a
 language. It's easy to pick up any other language just some

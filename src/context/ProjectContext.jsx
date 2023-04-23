@@ -36,6 +36,7 @@ export const ProjectProvider = props => {
   ]);
 
   console.log(project);
+
   return (
     <ProjectContext.Provider value={project}>
       {props.children}
