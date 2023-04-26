@@ -35,16 +35,18 @@ const AboutMeDetails = () => {
           <img
             className="bg-black w-[290px] h-[290px] absolute -translate-x-3 -translate-y-3 rounded-md"
             alt=""
-            src="src\assets\Profile.png"
+            src="src/Images/Profile.png"
           />
         </span>
 
         {/* About me */}
         <div className="flex flex-col">
-          <p className="mt-4 font-bold text-center md:text-2xl md:max-w-3xl text-xl md:text-start">
+          <p className="mt-4 font-bold text-center md:text-2xl md:max-w-full text-xl md:text-start w-full">
             Hey visitor, my name is Sushant Menon. I'm a self taught developer.
             I work mostly on frontend and for which I use technologies like
-            HTML, CSS, Javascript and React. I make websites.
+            HTML, CSS, Javascript and React. I convert beautiful designs into
+            high quality code that produces visually stunning and user-friendly
+            websites.
           </p>
           {/* Education */}
           <div className="md:mt-20 mt-10 flex flex-col">
