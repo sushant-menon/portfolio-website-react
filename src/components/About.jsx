@@ -6,7 +6,7 @@ const About = () => {
     <>
       <img
         className=" absolute h-screen md:w-full object-cover blur-sm"
-        src="src\Images\sunset1.jpg"
+        src="src\assets\sunset1.jpg"
         alt="bg-image"
       />
       <div className="h-screen overflow-y-auto">

@@ -35,7 +35,7 @@ const AboutMeDetails = () => {
           <img
             className="bg-black w-[290px] h-[290px] absolute -translate-x-3 -translate-y-3 rounded-md"
             alt=""
-            src="src/Images/Profile.png"
+            src="src\assets\Profile.png"
           />
         </span>
 
