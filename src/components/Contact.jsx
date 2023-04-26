@@ -28,12 +28,12 @@ const Contact = () => {
           <div className="flex flex-row mt-10 space-x-5 ">
             <img
               className="w-8 h-8"
-              src="src\Images\svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0c.svg"
+              src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
               alt="github-image"
             />
             <img
               className="w-8 h-8"
-              src="src\Images\svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiI (3).svg"
+              src="src\assets\linkedin.svg"
               alt="linkdin-image"
             />
           </div>
