@@ -28,7 +28,7 @@ const Contact = () => {
           <div className="flex flex-row mt-10 space-x-5 ">
             <Link to="https://github.com/sushant-menon">
               <img
-                className="w-8 h-8 bg-white p-1"
+                className="w-8 h-8 bg-[#ffffff] p-1"
                 src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
                 alt="github-image"
               />
