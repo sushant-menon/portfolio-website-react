@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { ProjectContext } from "../context/ProjectContext";
 
 const CardComponent = ({ Name, Description, Image, Tech, link, github }) => {
-  // console.log("Name is : ", Name);
   return (
     <div className="bg-green-700 rounded-3xl m-4 p-4 w-full">
       <div className="flex flex-col items-center md:items-start md:flex-row">
