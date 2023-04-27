@@ -26,16 +26,21 @@ const Contact = () => {
           </div>
           {/* social media */}
           <div className="flex flex-row mt-10 space-x-5 ">
-            <img
-              className="w-8 h-8"
-              src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-              alt="github-image"
-            />
-            <img
-              className="w-8 h-8"
-              src="src\assets\linkedin.svg"
-              alt="linkdin-image"
-            />
+            <Link to="https://github.com/sushant-menon">
+              <img
+                className="w-8 h-8 bg-white p-1"
+                src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                alt="github-image"
+              />
+            </Link>
+
+            <Link to="https://www.linkedin.com/in/sushant-menon-733b2921a/">
+              <img
+                className="w-8 h-8 bg-[#0077b5] p-1"
+                src="src\assets\linkedin.svg"
+                alt="linkdin-image"
+              />
+            </Link>
           </div>
         </div>
       </div>
