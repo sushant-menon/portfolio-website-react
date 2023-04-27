@@ -14,8 +14,12 @@ const CardComponent = ({ Name, Description, Image, Tech, link, github }) => {
             <img className="rounded-xl w-[320px] md:w-[400px]" src={Image} />
           </span>
           <span className="mt-3 md:mx-48 space-x-4">
-            <Link to={link}>Live</Link>
-            <Link to={github}>Github</Link>
+            <Link to={link} target="_blank">
+              Live
+            </Link>
+            <Link to={github} target="_blank">
+              Github
+            </Link>
           </span>
         </div>
         {/* description and tech */}

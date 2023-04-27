@@ -17,12 +17,13 @@ export const ProjectProvider = props => {
     },
     {
       id: 2,
-      Name: "YT-Clone",
-      Description: "Sushant is a bitch ass boy",
+      Name: "E-Kart",
+      Description:
+        "E-commerce website which enables you to add your favorite items to the cart and remove it. In this items can also be filtered based on the type.",
       Image: "src/assets/cole.jpg",
       Tech: "Html, css , React",
-      Link: "",
-      Github: "",
+      Link: "https://ekarrt.netlify.app/",
+      Github: "https://github.com/sushant-menon/E-kart-react",
     },
     {
       id: 3,
