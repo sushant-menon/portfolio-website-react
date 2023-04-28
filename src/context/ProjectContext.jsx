@@ -7,7 +7,7 @@ export const ProjectProvider = props => {
   const [project, setProject] = useState([
     {
       id: 1,
-      Name: "Todo-List",
+      Name: "Todo List",
       Description:
         "A todo list is a simple tool that helps individuals keep track of tasks or activities that need to be completed within a specific timeframe. It is a list of items that need to be done, organized in a way that allows the user to prioritize tasks based on their importance or urgency.",
       Image: "src/assets/cole.jpg",
@@ -56,7 +56,7 @@ export const ProjectProvider = props => {
       Github: "",
     },
     {
-      id: 3,
+      id: 4,
       Name: "Portfolio Website",
       Description:
         "This portfolio website was built by a frontend developer using React, HTML, and Tailwind CSS. The website features a clean and modern design with project cards displayed using the Context API. It showcases the developer's skills and projects in a clear and concise manner, providing an excellent overview of their abilities and experience.",

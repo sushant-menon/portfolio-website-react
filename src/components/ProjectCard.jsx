@@ -5,9 +5,9 @@ import { initFlowbite } from "flowbite";
 const ProjectCard = ({ prod }) => {
   const { Name, Description, Image, link, Github, Tech } = prod;
   return (
-    <div className=" bg-gray-700 border-2 border-white rounded-lg w-96 px-3 py-3 mt-10 md:mt-24 text-white">
+    <div className=" bg-gray-700 rounded-xl w-96 px-3 py-3 mt-10 md:mt-24 text-white">
       <div className="flex flex-col items-center w-full space-y-3">
-        <img className="rounded-lg" src={Image} alt={Name} />
+        <img className="rounded-2xl" src={Image} alt={Name} />
         <h3 className="text-xl font-extrabold">{prod.Name}</h3>
         <p className="text-center">{Description}</p>
         <span className="flex">
