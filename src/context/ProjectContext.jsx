@@ -32,6 +32,7 @@ export const ProjectProvider = props => {
         "src/assets/CSS.png",
         "src/assets/Javascript.png",
         "src/assets/React.png",
+        `src/assets/Tailwind.png`,
       ],
 
       link: "https://ekarrt.netlify.app/",
@@ -49,9 +50,26 @@ export const ProjectProvider = props => {
         "src/assets/Javascript.png",
         "src/assets/React.png",
         "src/assets/Redux.png",
+        `src/assets/Tailwind.png`,
       ],
       link: "",
       Github: "",
+    },
+    {
+      id: 3,
+      Name: "Portfolio Website",
+      Description:
+        "This portfolio website was built by a frontend developer using React, HTML, and Tailwind CSS. The website features a clean and modern design with project cards displayed using the Context API. It showcases the developer's skills and projects in a clear and concise manner, providing an excellent overview of their abilities and experience.",
+      Image: "src/assets/cole.jpg",
+      Tech: [
+        "src/assets/HTML.png",
+        "src/assets/CSS.png",
+        "src/assets/Javascript.png",
+        "src/assets/React.png",
+        `src/assets/Tailwind.png`,
+      ],
+      link: "",
+      Github: "https://github.com/sushant-menon/portfolio-website-react",
     },
   ]);
 
