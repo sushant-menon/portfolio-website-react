@@ -25,7 +25,7 @@ export const ProjectProvider = props => {
       id: 2,
       Name: "E-Kart",
       Description:
-        "This project is an e-commerce website that allows users to browse different products, add items to the cart, remove items from the cart, and increase the quantity of items. Additionally, the website provides a filtering feature to enable users to search for products based on their categories,",
+        "This project is an e-commerce website that allows users to browse different products, add items to the cart, remove items from the cart, and increase the quantity of items. Additionally, the website provides a filtering feature to enable users to filter products based on their categories.",
       Image: "src/assets/cole.jpg",
       Tech: [
         "src/assets/HTML.png",
