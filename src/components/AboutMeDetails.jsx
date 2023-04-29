@@ -43,10 +43,10 @@ const AboutMeDetails = () => {
         <div className="flex flex-col">
           <p className="mt-4 font-bold text-center md:text-2xl md:max-w-full text-xl md:text-start w-full">
             Hey visitor, my name is Sushant Menon. I'm a self taught developer.
-            I work mostly on frontend and for which I use technologies like
+            I majorly work on frontend and for which I use technologies like
             HTML, CSS, Javascript and React. I convert beautiful designs into
             high quality code that produces visually stunning and user-friendly
-            websites.
+            websites. Always eager to learn new things.
           </p>
           {/* Education */}
           <div className="md:mt-20 mt-10 flex flex-col">
