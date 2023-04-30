@@ -2,8 +2,18 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const handleLinkClick = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
-    <div className="flex justify-between mx-auto bg-black p-5 px-6 md:px-16 items-center">
+    <div className="flex justify-between mx-auto bg-black p-5 px-8 md:px-16 items-center">
       <Link
         to="/home"
         className="text-white text-4xl cursor-pointer font-extrabold"
@@ -33,48 +43,62 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* hamburger  */}
-      <span className="md:hidden block">
+      {/* Hamburger menu */}
+
+      {/* Hamburger starts here */}
+      <div className="block md:hidden">
         <button
           id="menu-btn"
-          className="hamburger focus:outline-none"
+          className={`block hamburger lg:hidden focus:outline-none mb-3 ${
+            isMenuOpen ? "open" : ""
+          }`}
           type="button"
+          onClick={toggleMenu}
         >
           <span className="hamburger-top"></span>
           <span className="hamburger-middle"></span>
           <span className="hamburger-bottom"></span>
         </button>
-      </span>
 
-      {/* Hamburger starts from here */}
-
-      <div
-        id="menu"
-        className="hidden p-6 rounded-lg bg-darkViolet left-6 right-6 top-20 z-100"
-      >
-        <div className="flex flex-col items-center justify-center w-full space-y-6 font-bold text-white rounded-sm">
-          <a href="#" className="w-full text-center">
-            Features
-          </a>
-          <a href="#" className="w-full text-center">
-            Pricing
-          </a>
-          <a href="#" className="w-full text-center">
-            Resources
-          </a>
-          <a
-            href="#"
-            className="w-full pt-6 border-t border-gray-400 text-center"
-          >
-            Login
-          </a>
-          <a href="#" className="w-full py-3 rounded-full bg-cyan text-center">
-            Sign Up
-          </a>
+        <div
+          id="menu"
+          className={`absolute z-40  ${
+            isMenuOpen ? "block" : "hidden"
+          } p-6 left-6 right-6 top-20 z-100`}
+        >
+          <div className="flex flex-col items-center justify-evenly w-full space-y-10 font-bold text-black bg-white rounded-xl h-96 text-2xl">
+            <Link
+              onClick={handleLinkClick}
+              to="/"
+              className="w-full text-center"
+            >
+              Home
+            </Link>
+            <Link
+              onClick={handleLinkClick}
+              to="/project"
+              className="w-full text-center"
+            >
+              Works
+            </Link>
+            <Link
+              onClick={handleLinkClick}
+              to="/about"
+              className="w-full text-center"
+            >
+              About
+            </Link>
+            <Link
+              onClick={handleLinkClick}
+              to="/contact"
+              className="w-full text-center"
+            >
+              Contact
+            </Link>
+          </div>
         </div>
       </div>
-
-      {/* hamburger menu ends here */}
+      {/* Hamburger ends here */}
     </div>
   );
 };
