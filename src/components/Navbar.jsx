@@ -49,7 +49,7 @@ const Navbar = () => {
       <div className="block md:hidden">
         <button
           id="menu-btn"
-          className={`block hamburger lg:hidden focus:outline-none mb-3 ${
+          className={`block hamburger lg:hidden focus:outline-none mb-3 cursor-pointer ${
             isMenuOpen ? "open" : ""
           }`}
           type="button"
