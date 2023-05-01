@@ -10,7 +10,7 @@ export const ProjectProvider = props => {
       Name: "Todo List",
       Description:
         "A todo list is a simple tool that helps individuals keep track of tasks or activities that need to be completed within a specific timeframe. It is a list of items that need to be done, organized in a way that allows the user to prioritize tasks based on their importance or urgency.",
-      Image: "src/assets/cole.jpg",
+      Image: "/cole.jpg",
       Tech: [
         "src/assets/HTML.png",
         "src/assets/CSS.png",
