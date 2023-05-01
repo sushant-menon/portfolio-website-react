@@ -66,32 +66,32 @@ const Navbar = () => {
             isMenuOpen ? "block" : "hidden"
           } p-6 left-6 right-6 top-20 z-100`}
         >
-          <div className="flex flex-col items-center justify-evenly w-full space-y-10 font-bold text-black bg-white rounded-xl h-96 text-2xl">
+          <div className="flex flex-col items-center justify-evenly w-full space-y-8 font-bold border-4 border-black text-black bg-white rounded-xl h-96 text-2xl">
             <Link
               onClick={handleLinkClick}
               to="/"
-              className="w-full text-center"
+              className="w-full h-full hover:bg-gray-200 flex items-center justify-center hover:rounded-xl py-3"
             >
               Home
             </Link>
             <Link
               onClick={handleLinkClick}
               to="/project"
-              className="w-full text-center"
+              className="w-full h-full flex items-center justify-center hover:bg-gray-200 hover:rounded-xl py-3"
             >
               Works
             </Link>
             <Link
               onClick={handleLinkClick}
               to="/about"
-              className="w-full text-center"
+              className="w-full h-full flex items-center justify-center  hover:bg-gray-200 hover:rounded-xl py-3"
             >
               About
             </Link>
             <Link
               onClick={handleLinkClick}
               to="/contact"
-              className="w-full text-center"
+              className="w-full h-full flex items-center justify-center  hover:bg-gray-200 hover:rounded-xl py-3"
             >
               Contact
             </Link>
