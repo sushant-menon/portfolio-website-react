@@ -84,7 +84,7 @@ const AboutMeDetails = () => {
               <div className="flex flex-col space-y-2">
                 <span className="inline-flex">
                   <li></li>
-                  <p>Lifting weights</p>
+                  <p>Working out and lifting weights</p>
                 </span>
                 <span className="inline-flex">
                   <li></li>
@@ -104,11 +104,40 @@ const AboutMeDetails = () => {
 
           {/* Technologies used */}
 
-          <div className="md:mt-20 mt-10 flex flex-col">
+          <div className="md:mt-20 mt-10">
             <h2 className="text-start font-extrabold text-3xl">Technology :</h2>
-            <p className=" text-xl text-start mt-2 md:max-w-3xl  font-bold">
-              HTML CSS JS REACT GIT GITHUB
-            </p>
+            <div className="grid grid-cols-4 grid-rows-3 gap-4 mt-5 md:grid-cols-4 items-center">
+              <img className="w-12 h-12" src="src\assets\HTML.png" alt="" />
+              <img className="w-12 h-12" src="src\assets\CSS.png" alt="" />
+              <img
+                className="w-16 h-16"
+                src="src\assets\Javascript.png"
+                alt=""
+              />
+              <img className="w-12 h-12" src="src\assets\React.png" alt="" />
+              <img className="w-12 h-12" src="src\assets\Redux.png" alt="" />
+              <img className="w-12 h-12" src="src\assets\Tailwind.png" alt="" />
+              <img
+                className="w-12 h-12"
+                src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png"
+                alt=""
+              />
+              <img
+                className="w-12 h-7"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1200px-Npm-logo.svg.png"
+                alt=""
+              />
+              <img
+                className="w-20 h-8"
+                src="https://www.fullstackpython.com/img/logos/git.png"
+                alt=""
+              />
+              <img
+                className="w-22 h-10"
+                src="https://user-images.githubusercontent.com/19409/135924939-03845d0b-e7bb-414b-89b6-e627dfa9f614.png"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>

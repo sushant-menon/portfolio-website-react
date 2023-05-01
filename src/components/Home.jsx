@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="md:bg-gradient-to-r from-[#ffd89b]  to-[#19547b] h-screen bg-gradient-to-b">
+    <div className="md:bg-gradient-to-r from-[#ffd89b]  to-[#19547b] h-full md:h-screen bg-gradient-to-b">
       <div className="container px-6 md:px-16 mx-auto pt-7">
         <div className="flex flex-col md:flex-row-reverse justify-center items-center space-y-10 mx-auto md:space-y-0 xl:justify-around md:items-end xl:items-center md:mt-24 relative">
           <span className="rounded-full bg-black w-[300px] h-[300px] mt-[50px] relative md:w-[450px] md:h-[270px] xl:w-[450px] xl:h-[450px] ">
@@ -14,7 +14,7 @@ const Home = () => {
           </span>
           <div>
             <h2 className="font-extrabold text-5xl max-w-md text-center md:hidden">
-              Hi, I'm Sushant Menon
+              Hi there, I'm Sushant Menon
             </h2>
             {/* for large screens */}
             <span className="hidden md:block">
@@ -31,14 +31,14 @@ const Home = () => {
             <p className="font-bold text-2xl text-center md:text-start">
               I like to turn ideas into product
             </p>
-            <span className="flex space-x-3 mt-4 flex-col items-center space-y-4 md:flex-row md:space-y-0">
-              <Link to="/about" className="border-b-2 w-max">
-                Want to know more about me
+            <span className="flex md:space-x-3 mt-8 flex-col items-center space-y-8 md:flex-row md:space-y-0 space-x-0">
+              <Link to="/about" className="font-bold">
+                Who am I?
               </Link>
-              <Link to="/project" className=" border-b-2 w-max">
+              <Link to="/project" className="font-bold">
                 My Works
               </Link>
-              <Link to="/contact" className="border-b-2 w-max">
+              <Link to="/contact" className="font-bold">
                 Get in touch
               </Link>
             </span>
