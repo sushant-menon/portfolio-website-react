@@ -35,7 +35,7 @@ const AboutMeDetails = () => {
           <img
             className="bg-black w-[290px] h-[290px] absolute -translate-x-3 -translate-y-3 rounded-md"
             alt=""
-            src="src\assets\Profile.png"
+            src="/Profile.png"
           />
         </span>
 
@@ -107,35 +107,36 @@ const AboutMeDetails = () => {
           <div className="md:mt-20 mt-10">
             <h2 className="text-start font-extrabold text-3xl">Technology :</h2>
             <div className="grid grid-cols-4 grid-rows-3 gap-4 mt-5 md:grid-cols-4 items-center">
-              <img className="w-12 h-12" src="src\assets\HTML.png" alt="" />
-              <img className="w-12 h-12" src="src\assets\CSS.png" alt="" />
-              <img
-                className="w-16 h-16"
-                src="src\assets\Javascript.png"
-                alt=""
-              />
-              <img className="w-12 h-12" src="src\assets\React.png" alt="" />
-              <img className="w-12 h-12" src="src\assets\Redux.png" alt="" />
-              <img className="w-12 h-12" src="src\assets\Tailwind.png" alt="" />
+              <img className="w-12 h-12" src="/HTML.png" alt="html-image" />
+              <img className="w-12 h-12" src="/CSS.png" alt="css-image" />
+              <img className="w-16 h-16" src="/Javascript.png" alt="js-image" />
+              <img className="w-12 h-12" src="/React.png" alt="react-image" />
+              <img className="w-12 h-12" src="/Redux.png" alt="redux-image" />
               <img
                 className="w-12 h-12"
-                src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png"
-                alt=""
-              />
-              <img
-                className="w-12 h-7"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1200px-Npm-logo.svg.png"
-                alt=""
+                src="/Tailwind.png"
+                alt="tailwind-image"
               />
               <img
                 className="w-20 h-8"
                 src="https://www.fullstackpython.com/img/logos/git.png"
-                alt=""
+                alt="git-image"
               />
+              <img
+                className="w-12 h-12"
+                src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png"
+                alt="github-image"
+              />
+              <img
+                className="w-12 h-7"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1200px-Npm-logo.svg.png"
+                alt="npm-image"
+              />
+
               <img
                 className="w-22 h-10"
                 src="https://user-images.githubusercontent.com/19409/135924939-03845d0b-e7bb-414b-89b6-e627dfa9f614.png"
-                alt=""
+                alt="parcel-image"
               />
             </div>
           </div>

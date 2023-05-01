@@ -8,7 +8,6 @@ import {
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import Tech from "./components/Tech";
 import { ProjectProvider } from "./context/ProjectContext";
 import Footer from "./components/Footer";
 import Home from "./components/Home";

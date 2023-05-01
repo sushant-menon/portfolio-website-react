@@ -29,7 +29,7 @@ const Contact = () => {
             <Link to="https://github.com/sushant-menon" target="_blank">
               <img
                 className="w-8 h-8  p-1"
-                src="src\assets\github.svg"
+                src="/github.svg"
                 alt="github-image"
               />
             </Link>
@@ -40,14 +40,14 @@ const Contact = () => {
             >
               <img
                 className="w-8 h-8  p-1"
-                src="src\assets\linkedin (1).svg"
+                src="/linkedin (1).svg"
                 alt="linkdin-image"
               />
             </Link>
             <Link to="https://twitter.com/SMash_CR" target="_blank">
               <img
                 className="w-8 h-8  p-1"
-                src="src\assets\twitter (1).svg"
+                src="/twitter (1).svg"
                 alt="twitter-image"
               />
             </Link>

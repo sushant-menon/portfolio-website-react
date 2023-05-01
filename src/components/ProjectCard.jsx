@@ -19,11 +19,7 @@ const ProjectCard = ({ prod }) => {
             type="button"
             class="text-white font-medium rounded-lg text-sm px-5 py-2.5 text-center"
           >
-            <img
-              className="w-7 h-7"
-              src="src\assets\external-link.svg"
-              alt={link}
-            />
+            <img className="w-7 h-7" src="/external-link.svg" alt={link} />
           </Link>
           <div
             id="tooltip-no-arrow"
@@ -40,7 +36,7 @@ const ProjectCard = ({ prod }) => {
             type="button"
             class="text-white focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center"
           >
-            <img src="src\assets\github.svg" alt="" />
+            <img src="/github.svg" alt="" />
           </Link>
           <div
             id="tooltip"
