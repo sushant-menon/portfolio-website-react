@@ -9,7 +9,7 @@ const Home = () => {
           <span className="rounded-full bg-black w-[300px] h-[300px] mt-[50px] relative md:w-[450px] md:h-[270px] xl:w-[450px] xl:h-[450px] ">
             <img
               className="absolute rounded-full w-96 xl:w-[450px] xl:h-[450px] md:w-[550px] md:h-[270px]"
-              src="src\assets\images\3d-cartoon-lumberjack-character-removebg-preview.png"
+              src="/3d-cartoon-lumberjack-character-removebg-preview.png"
             />
           </span>
           <div>
