@@ -29,11 +29,11 @@ const AboutMeDetails = () => {
       <div>
         <h1 className="font-extrabold text-4xl">About Me</h1>
       </div>
-      <div className="flex flex-col md:flex-row-reverse mt-10 md:mt-16 px-3 mx-auto justify-center items-center md:justify-between">
+      <div className="flex flex-col md:flex-row-reverse mt-10 md:mt-16 mx-auto justify-center items-center md:justify-between">
         <span className=" flex justify-center items-center cursor-pointer group-hover:transform hover:scale-95 duration-700">
-          <span className="border-2 border-green-950 w-[290px] h-[290px] rounded-md"></span>
+          <span className="border-2 border-green-950 w-[190px] h-[190px] md:w-[290px] md:h-[290px]  rounded-md"></span>
           <img
-            className="bg-black w-[290px] h-[290px] absolute -translate-x-3 -translate-y-3 rounded-md"
+            className="bg-black md:w-[290px] md:h-[290px] w-[190px] h-[190px] absolute -translate-x-3 -translate-y-3 rounded-md"
             alt=""
             src="/Profile.png"
           />
