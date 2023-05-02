@@ -51,10 +51,10 @@ const ProjectCard = ({ prod }) => {
         </span>
         <span className="border border-black w-full"></span>
         {/* Technology used */}
-        <div className="inline-flex items-center justify-evenly">
-          <p className="text-xl text-start">Tech :</p>
+        <div className="inline-flex items-center flex-wrap">
+          <p className="text-lg text-start">Tech :</p>
           {Tech.map((tech, index) => (
-            <img className="w-12 h-12" key={index} src={tech} alt={Name} />
+            <img className="w-10 h-10" key={index} src={tech} alt={Name} />
           ))}
         </div>
       </div>
