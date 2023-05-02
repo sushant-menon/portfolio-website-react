@@ -18,11 +18,22 @@ const Contact = () => {
             you for considering me as a potential collaborator.
           </p>
           <div className="group mt-8">
-            <button className="w-full bg-blue-700 text-white border-b-8 border-b-blue-700 rounded-lg group-hover:border-t-8 group-hover:border-b-0 group-hover:bg-blue-700 group-hover:border-t-blue-700 group-hover:shadow-lg transition-all duration-150">
-              <div className="px-8 py-4 bg-blue-500 rounded-lg group-hover:bg-blue-700 duration-150 font-bold text-lg tracking-widest">
-                <a href="mailto:sushantnambiar@gmail.com">Let's Talk</a>
-              </div>
-            </button>
+            <div
+              className="button w-40 h-16 bg-blue-500 rounded-lg cursor-pointer select-none
+    active:translate-y-2  active:[box-shadow:0_0px_0_0_#1b6ff8,0_0px_0_0_#1b70f841]
+    active:border-b-[0px]
+    transition-all duration-150 [box-shadow:0_10px_0_0_#1b6ff8,0_15px_0_0_#1b70f841]
+    border-b-[1px] border-blue-400
+  "
+            >
+              <a
+                href="mailto:sushantnambiar@gmail.com"
+                target="_blank"
+                className="flex flex-col justify-center items-center h-full text-white font-bold text-lg "
+              >
+                E-mail
+              </a>
+            </div>
           </div>
           {/* social media */}
           <div className="flex flex-row mt-10 space-x-8">

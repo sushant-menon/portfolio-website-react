@@ -36,11 +36,11 @@ const Home = () => {
                 to="/about"
                 className="font-bold bg-blue-200 hover:bg-blue-300 px-3 py-2 rounded-xl"
               >
-                Who am I?
+                Know more?
               </Link>
               <Link
                 to="/project"
-                className="font-bold bg-blue-200 px-3 py-2 rounded-xl"
+                className="font-bold bg-blue-200 hover:bg-blue-300 px-3 py-2 rounded-xl"
               >
                 Projects
               </Link>
