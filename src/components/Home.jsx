@@ -12,7 +12,7 @@ const Home = () => {
               src="/3d-cartoon-lumberjack-character-removebg-preview.png"
             />
           </span>
-          <div>
+          <div className="space-y-7">
             <h2 className="font-extrabold text-5xl max-w-md text-center md:hidden">
               Hi there, I'm Sushant Menon
             </h2>
@@ -31,15 +31,18 @@ const Home = () => {
             <p className="font-bold text-2xl text-center md:text-start">
               I like to turn ideas into product
             </p>
-            <span className="flex md:space-x-3 mt-8 flex-col items-center space-y-8 md:flex-row md:space-y-0 space-x-0">
-              <Link to="/about" className="font-bold">
+            <span className="flex md:space-x-3 mt-8 flex-col items-center space-y-8 md:flex-row md:space-y-0 space-x-0 pb-5">
+              <Link
+                to="/about"
+                className="font-bold bg-blue-200 hover:bg-blue-300 px-3 py-2 rounded-xl"
+              >
                 Who am I?
               </Link>
-              <Link to="/project" className="font-bold">
-                My Works
-              </Link>
-              <Link to="/contact" className="font-bold">
-                Get in touch
+              <Link
+                to="/project"
+                className="font-bold bg-blue-200 px-3 py-2 rounded-xl"
+              >
+                Projects
               </Link>
             </span>
           </div>

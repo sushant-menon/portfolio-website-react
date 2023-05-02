@@ -1,13 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { initFlowbite } from "flowbite";
 
 const ProjectCard = ({ prod }) => {
   const { Name, Description, Image, link, Github, Tech } = prod;
   return (
-    <div className=" bg-gray-800 shadow-md shadow-white rounded-3xl w-96 px-3 py-3 mt-10 md:mt-24 text-white">
+    <div className=" bg-gray-800 shadow-md shadow-white rounded-3xl px-3 py-3 md:w-96 mt-10 md:mt-24 text-white">
       <div className="flex flex-col items-center w-full space-y-3">
-        <img className="rounded-lg" src={Image} alt={Name} />
+        <img
+          className="rounded-lg w-64 h-32 md:w-full md:h-full"
+          src={Image}
+          alt={Name}
+        />
         <h3 className="text-xl font-extrabold">{prod.Name}</h3>
         <p className="text-center">{Description}</p>
         <span className="flex">
@@ -48,7 +51,7 @@ const ProjectCard = ({ prod }) => {
         </span>
         <span className="border border-black w-full"></span>
         {/* Technology used */}
-        <div className="inline-flex items-center w-full justify-evenly">
+        <div className="inline-flex items-center justify-evenly">
           <p className="text-xl text-start">Tech :</p>
           {Tech.map((tech, index) => (
             <img className="w-12 h-12" key={index} src={tech} alt={Name} />
