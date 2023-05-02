@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 const ProjectCard = ({ prod }) => {
   const { Name, Description, Image, link, Github, Tech } = prod;
   return (
-    <div className=" bg-gray-800 shadow-md shadow-white rounded-3xl px-3 py-3 md:w-96 mt-10 md:mt-24 text-white">
+    <div className=" bg-gray-800 shadow-inner shadow-white rounded-3xl px-3 py-3 md:w-96 mt-10 md:mt-24 text-white mb-3 md:mb-3">
       <div className="flex flex-col items-center w-full space-y-3">
         <img
-          className="rounded-lg w-64 h-32 md:w-full md:h-full"
+          className="rounded-lg w-full h-full md:w-full md:h-full"
           src={Image}
           alt={Name}
         />
@@ -52,9 +52,14 @@ const ProjectCard = ({ prod }) => {
         <span className="border border-black w-full"></span>
         {/* Technology used */}
         <div className="inline-flex items-center flex-wrap justify-around">
-          <p className="text-lg text-start">Tech :</p>
+          <p className="text-xl text-start">Tech :</p>
           {Tech.map((tech, index) => (
-            <img className="w-10 h-10" key={index} src={tech} alt={Name} />
+            <img
+              className="w-10 h-10 md:w-12 md:h-12"
+              key={index}
+              src={tech}
+              alt={Name}
+            />
           ))}
         </div>
       </div>
