@@ -51,7 +51,7 @@ const ProjectCard = ({ prod }) => {
         </span>
         <span className="border border-black w-full"></span>
         {/* Technology used */}
-        <div className="inline-flex items-center flex-wrap">
+        <div className="inline-flex items-center flex-wrap justify-around">
           <p className="text-lg text-start">Tech :</p>
           {Tech.map((tech, index) => (
             <img className="w-10 h-10" key={index} src={tech} alt={Name} />

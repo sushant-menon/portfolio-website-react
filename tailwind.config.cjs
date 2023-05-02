@@ -13,6 +13,9 @@ module.exports = {
   },
   theme: {
     extend: {
+      width: {
+        325: "22rem",
+      },
       fontFamily: {
         sans: ["sans-serif"],
       },

@@ -10,7 +10,7 @@ const Projects = () => {
     <>
       <div className="bg-green-600 h-full py-8 px-2">
         <div className="h-screen overflow-y-auto">
-          <div className=" container px-2 py-5 h-full md:h-screen md:w-full mx-auto w-80">
+          <div className=" container px-2 py-5 h-full md:h-screen md:w-full mx-auto w-[22rem]">
             <h1 className="text-5xl font-bold text-center text-white ">
               My Projects
             </h1>
