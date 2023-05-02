@@ -49,7 +49,7 @@ const ProjectCard = ({ prod }) => {
             Github
           </div>
         </span>
-        <span className="border border-black w-full"></span>
+        <span className="border border-white w-72"></span>
         {/* Technology used */}
         <div className="inline-flex items-center flex-wrap justify-around">
           <p className="text-xl text-start">Tech :</p>
