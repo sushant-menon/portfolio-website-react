@@ -114,8 +114,8 @@ const AboutMeDetails = () => {
               <img className="w-12 h-12" src="/Redux.png" alt="redux-image" />
               <img
                 className="w-12 h-12"
-                src="/Tailwind.png"
-                alt="tailwind-image"
+                src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png"
+                alt="github-image"
               />
               <img
                 className="w-20 h-8"
@@ -123,16 +123,15 @@ const AboutMeDetails = () => {
                 alt="git-image"
               />
               <img
-                className="w-12 h-12"
-                src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png"
-                alt="github-image"
+                className="w-12 h-12 mix-blend-screen"
+                src="/Tailwind.png"
+                alt="tailwind-image"
               />
               <img
                 className="w-12 h-7"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1200px-Npm-logo.svg.png"
                 alt="npm-image"
               />
-
               <img
                 className="w-22 h-10"
                 src="https://user-images.githubusercontent.com/19409/135924939-03845d0b-e7bb-414b-89b6-e627dfa9f614.png"
