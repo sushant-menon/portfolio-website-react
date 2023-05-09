@@ -48,8 +48,8 @@ export const ProjectProvider = props => {
         "/React.png",
         `/Tailwind.png`,
       ],
-      link: "",
-      Github: "https://github.com/sushant-menon/youtube-clone-react",
+      link: "https://sushantytclone.netlify.app/",
+      Github: "https://github.com/sushant-menon/youtube-clone-reactVite",
     },
     {
       id: 4,
