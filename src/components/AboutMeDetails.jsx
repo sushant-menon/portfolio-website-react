@@ -1,21 +1,13 @@
 import React, { useState } from "react";
 
-const HowItStartedText = ` I was in my 2nd year of Engineering when I was first introduced to a programming language that was "C" and before that I had zero
-knowledge about any language.Although in college I only studied C
-language for clearing the semester, never took it seriously to
-understand the fundamentals.So in 3rd year I tried to learn the fundamentals from scratch and gained a little knowledge in C. But I never enjoyed writing
-code in C. So I started exploring for other programming languages
-to learn because I had a added advantage of already knowing a
-language. It's easy to pick up any other language just some
-difference of syntax and the logic remains same.Tried python, failed. I
-didn't enjoyed writing code in python either, started exploring
-more programming language and this time the language which I found
-changed my life for good and that was javascript. I started exploring about web
+const HowItStartedText = ` In my second year of Engineering, I was introduced to the programming language "C" without any prior knowledge. However, I didn't invest much effort in understanding its fundamentals and only studied it to pass my exams.
+
+In my third year, I decided to learn C from scratch and gained some knowledge, but I didn't enjoy coding in C. This prompted me to explore other programming languages, taking advantage of my existing language familiarity.
+
+I tried Python but didn't find it appealing either. So, I continued exploring and stumbled upon JavaScript, which completely changed my life. Coding in JavaScript resonated with me deeply, and it became my preferred language due to its logic similarities with other languages. JavaScript had a profound impact on me and solidified my passion for programming.
+ I started exploring about web
 development in my final year of engineering. Learnt HTML and CSS
-from free resources available.Then I began experimenting with HTML
-and CSS and made quite a few static website which made me fall in
-love for the frontend and that day I decided to pursue software
-engineering as a career.`;
+from free resources available.After delving into HTML and CSS, I started exploring their potential by creating numerous static websites. It was during this time that my passion for frontend development ignited, solidifying my decision to pursue a career in software engineering.`;
 
 const AboutMeDetails = () => {
   const [fullText, setFullText] = useState("false");
