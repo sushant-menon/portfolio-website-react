@@ -5,7 +5,7 @@ const ProjectCard = ({ prod }) => {
   const { Name, Description, Image, link, Github, Tech } = prod;
   return (
     <div className=" bg-gray-500 shadow-inner shadow-white rounded-3xl px-3 py-3 md:w-96 mt-10 md:mt-24 text-white mb-3 md:mb-3">
-      <div className="flex flex-col items-center w-full space-y-3">
+      <div className="flex flex-col items-center w-full h-full space-y-3">
         <img
           className="rounded-lg w-full h-full md:w-full md:h-full"
           src={Image}
