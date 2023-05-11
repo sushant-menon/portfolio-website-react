@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="bg-yellow-600">
+    <div className="bg-yellow-600 h-full">
       <span className="flex items-center justify-center py-6 text-white md:text-xl text-lg">
         Handcrafted with
         <img
@@ -11,7 +11,7 @@ const Footer = () => {
           src="https://cdn-icons-png.flaticon.com/512/56/56986.png"
           alt=""
         />
-        by{" "}
+        by
         <Link
           to="/contact"
           className="ml-2 font-bold underline underline-offset-4 text-white hover:text-gray-400"

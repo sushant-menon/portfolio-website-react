@@ -94,10 +94,6 @@ const AboutMeDetails = () => {
                   <li></li>
                   <p>Watching documentaries</p>
                 </span>
-                <span className="inline-flex">
-                  <li></li>
-                  <p>Listening hip-hop/rap music</p>
-                </span>
               </div>
             </p>
           </div>

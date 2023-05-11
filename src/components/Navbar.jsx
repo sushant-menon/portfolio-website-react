@@ -66,7 +66,7 @@ const Navbar = () => {
             isMenuOpen ? "block" : "hidden"
           } p-6 left-6 right-6 top-20 z-100`}
         >
-          <div className="flex flex-col items-center justify-evenly w-full space-y-8 font-bold border-4 border-black text-white bg-black rounded-xl h-96 text-2xl">
+          <div className="flex flex-col items-center justify-evenly space-y-8 font-bold border-4 border-black text-white bg-black rounded-xl h-96 text-2xl">
             <Link
               onClick={handleLinkClick}
               to="/"
