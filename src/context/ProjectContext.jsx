@@ -17,6 +17,7 @@ export const ProjectProvider = props => {
       // Tech3: "src/assets/Javascript.png",
       link: "https://todolistvjs.netlify.app/",
       Github: "https://github.com/sushant-menon/todolist-vanillajs",
+      Host: "/netlify.png",
     },
     {
       id: 2,
@@ -35,6 +36,7 @@ export const ProjectProvider = props => {
 
       link: "https://ekarrt.netlify.app/",
       Github: "https://github.com/sushant-menon/E-kart-react",
+      Host: "/netlify.png",
     },
     {
       id: 3,
@@ -53,14 +55,15 @@ export const ProjectProvider = props => {
       ],
       link: "https://sushantytclone.netlify.app/",
       Github: "https://github.com/sushant-menon/youtube-clone-reactVite",
+      Host: "/netlify.png",
     },
     {
       id: 4,
       Name: "Portfolio Website",
       Description:
         "This portfolio website was built by a frontend developer using React, HTML, and Tailwind CSS. The website features a clean and modern design with project cards displayed using the Context API. It showcases the developer's skills and projects in a clear and concise manner, providing an excellent overview of their abilities and experience.",
-      Image:
-        "https://assets-global.website-files.com/606a802fcaa89bc357508cad/61701b4e166c837543d8f0ce_2_How%20To%20a%20Create%20Personal%20Portfolio%20Website.png",
+
+      Image: "https://i.ytimg.com/vi/TwYKwaEjJd4/maxresdefault.jpg",
       Tech: [
         "/HTML.png",
         "/CSS.png",
@@ -70,6 +73,46 @@ export const ProjectProvider = props => {
       ],
       link: "https://sushantm-portfolio.netlify.app",
       Github: "https://github.com/sushant-menon/portfolio-website-react",
+      Host: "/netlify.png",
+    },
+    {
+      id: 5,
+      Name: "CineFusion",
+      Description: `
+        CineFusion crafted using Nextjs brings entertainment discovery with the TMDb API. Offering real-time curation of trending and popular movies and TV shows, the platform provides comprehensive details like plot summaries and viewer ratings. Unique to CineFusion is the integrated trailer feature, allowing users to preview content effortlessly.`,
+      Image:
+        "https://s3-alpha.figma.com/hub/file/1765404342/71d2f9bd-bc20-4e65-9807-5c9c886e7035-cover.png",
+      Tech: [
+        "/HTML.png",
+        "/CSS.png",
+        "/Javascript.png",
+        "/nextjs.png",
+        "/Redux.png",
+        `/Tailwind.png`,
+        // "/radix-ui.svg",
+      ],
+      link: "https://cinefusion-nextjs.vercel.app/",
+      Github: "https://github.com/sushant-menon/cinefusion-nextjs",
+      Host: "/vercel.png",
+    },
+    {
+      id: 6,
+      Name: "Paint Your Thoughts",
+      Description: `
+        Paint Your Thoughts is a vibrant project crafted in Next.js, offering users an immersive digital canvas using Canvas Api. This innovative paint board allows users to unleash their creativity by drawing with various pencil sizes and an extensive color palette. Designed for precision, the tool includes an eraser for quick corrections and a seamless undo/redo feature to navigate through the creative process effortlessly.`,
+      Image:
+        "https://i.pinimg.com/1200x/f9/49/a9/f949a9533eafac63990781c81e3e630f.jpg",
+      Tech: [
+        "/HTML.png",
+        "/CSS.png",
+        "/Javascript.png",
+        "/nextjs.png",
+        "/Redux.png",
+        `/Tailwind.png`,
+      ],
+      link: "https://paintyourthoughts.vercel.app/",
+      Github: "https://github.com/sushant-menon/paintyourthoughts",
+      Host: "/vercel.png",
     },
   ]);
 
